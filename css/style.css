@@ -1,4 +1,3 @@
-html{overflow-y:scroll}
 body {
     background-color: #f7f7f7;
     overflow-x: hidden;
@@ -107,13 +106,13 @@ body .container-fluid {
 #slider{
     background: black;
     position: relative;
-    top:-150;
+    top:-350px;
 }
 #slider img{
     position: relative;
     object-fit: cover;
     z-index: 0;
-    height: 110vh;
+    height: 150vh;
 }
 
 .features {
@@ -121,7 +120,7 @@ body .container-fluid {
     text-align: center;
     margin:0;
     padding:0;
-    margin-top:-150px;
+    margin-top:-350px;
     color:#fff;
     font-weight: 700;
 }
@@ -340,6 +339,12 @@ body .container-fluid {
     background: rgb(255, 150, 30);
     color: rgb(255, 150, 30);
     margin-top:25px;
+    padding:15px;
+}
+
+#testimonials ol li.active{
+    background: #333;
+    color: #333;
 }
 
 .carousel-indicators {
